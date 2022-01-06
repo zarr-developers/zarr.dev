@@ -1,19 +1,5 @@
 # zarr.dev
 
-Main Zarr website hosted at https://zarr.dev
+This work has been merged into the mainline in github.com/zarr-developers/zarr-developers.github.io
 
-## Building
-
-```
-conda create -n zarr.dev -c conda-forge rb-bundler c-compiler compilers cxx-compiler
-conda activate zarr.dev
-bundle install
-bundle exec jekyll serve
-```
-
-Note: using conda-forge packages directly failed on eventmachine (Dec 2021):
-```
-conda create -n zarr.dev -c conda-forge rb-jekyll rb-bundler rb-public_suffix rb-minima rb-jekyll-feed
-conda activate zarr.dev
-bundle exec jekyll serve
-```
+See https://github.com/zarr-developers/zarr-developers.github.io/commit/6b8cfca74d3b579845d4f5584647904ea5337fd2
